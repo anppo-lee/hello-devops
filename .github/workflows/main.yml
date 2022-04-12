@@ -41,8 +41,8 @@ jobs:
               echo "Even Lines"
           else
               echo "Odd Lines"
-              return `failure()`
-          fi
+              `failure()`
+          
           
 
           
