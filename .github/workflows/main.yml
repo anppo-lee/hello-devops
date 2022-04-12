@@ -34,5 +34,6 @@ jobs:
       - name: Count Lines
         run: | 
           lines=`cat * | wc -l`
+          echo "total lines=$lines"
 
           
