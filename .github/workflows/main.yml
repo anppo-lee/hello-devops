@@ -31,8 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Count Lines
-        run: | 
-LINES=$(cat * | wc -l)
+        run: | var LINES=$(cat * | wc -l)
 
 echo "total lines = $LINES"
 
