@@ -40,7 +40,7 @@ jobs:
               echo "Success"
           else
               echo "Fail"
-              exit
+              exit 1
           fi
           
           
