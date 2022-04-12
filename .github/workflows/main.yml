@@ -31,18 +31,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Count Lines
-        run: | var LINES=$(cat * | wc -l)
-
-echo "total lines = $LINES"
-
-let RESULT=LINES%2
-#echo $RESULT
-
-if [ $RESULT == 0 ] 
-then 
-	echo "Even Lines"
-else 
-	echo "Odd Lines"
-fi
+        run: 1.bash
 
           
