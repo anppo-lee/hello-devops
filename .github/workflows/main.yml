@@ -36,6 +36,7 @@ jobs:
           lines=`cat * | wc -l`
           echo "total lines=$lines"
           result=$lines%2
+          echo "lines=$result"
           if [ $result == 0 ]; then
               echo "Even Lines"
           else
