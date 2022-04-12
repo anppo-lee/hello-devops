@@ -37,11 +37,12 @@ jobs:
           echo "total lines=$lines"
           result=lines%2
           if [ $result == 0 ]
-          then
-            echo "Even Lines"
+            then
+              echo "Even Lines"
           else
-            echo "Odd Lines"
-            `failure()`
+              echo "Odd Lines"
+              return `failure()`
           fi
+          
 
           
