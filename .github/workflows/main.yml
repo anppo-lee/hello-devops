@@ -31,6 +31,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Count Lines
-        run: 1.bash
+        run: echo Hi
+        echod World
 
           
